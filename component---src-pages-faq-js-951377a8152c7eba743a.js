@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{130:function(e,a,t){"use strict";t.r(a);var n=t(144),c=t(0),l=t.n(c),r=t(143),o=t(161),i=t(157),m=t(158);a.default=function(){return l.a.createElement(i.a,null,l.a.createElement(m.a,{title:"FAQ"}),l.a.createElement(r.a,{className:"container spacing--after"},l.a.createElement("h1",null,"Hi from the FAQ page"),l.a.createElement(n.Link,{to:"/"},"Go back to the homepage")),l.a.createElement(o.a,null))}}}]);
+//# sourceMappingURL=component---src-pages-faq-js-951377a8152c7eba743a.js.map
