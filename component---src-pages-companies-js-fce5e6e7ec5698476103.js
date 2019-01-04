@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{129:function(e,a,t){"use strict";t.r(a);var n=t(144),c=t(0),o=t.n(c),r=t(143),i=t(157),l=t(158);a.default=function(){return o.a.createElement(i.a,null,o.a.createElement(l.a,{title:"Companies"}),o.a.createElement(r.a,{className:"container spacing--after"},o.a.createElement("h1",null,"Hi from the Companies page"),o.a.createElement(n.Link,{to:"/"},"Go back to the homepage")))}}}]);
-//# sourceMappingURL=component---src-pages-companies-js-fce5e6e7ec5698476103.js.map
