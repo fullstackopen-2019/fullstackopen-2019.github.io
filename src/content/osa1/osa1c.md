@@ -716,7 +716,7 @@ Tehdään seuraavaksi napeille tarkoitettu komponentti <i>Button</i>. Napille on
 
 ```js
 const Button = (props) => (
-  <button onClick={props.handleClick}>
+  <button onClick={props.handleClick()}>
     {props.text}
   </button>
 )
@@ -726,7 +726,7 @@ ja hyödynnetään taas destrukturointia ottamaan <i>props</i>:in tarpeelliset k
 
 ```js
 const Button = ({ handleClick, text }) => (
-  <button onClick={handleClick}>
+  <button onClick={handleClick()}>
     {text}
   </button>
 )
