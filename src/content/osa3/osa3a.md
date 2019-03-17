@@ -751,7 +751,7 @@ app.post('/notes', (request, response) => {
 
   const note = {
     content: body.content,
-    important: body.important || false,
+    important: !!body.important,
     date: new Date(),
     id: generateId(),
   }
@@ -781,12 +781,10 @@ Jos content-kentällä on arvo, luodaan muistiinpano syötteen perusteella. Kute
 Jos kenttä <i>important</i> puuttuu, asetetaan sille oletusarvo <i>false</i>. Oletusarvo generoidaan nyt hieman erikoisella tavalla:
 
 ```js
-important: body.important || false,
+important: !!body.important,
 ```
 
-jos sovelluksen vastaanottamassa muuttujaan _body_ talletetussa datassa on kenttä <i>important</i>, tulee lausekkeelle sen arvo. Jos kenttää ei ole olemassa, tulee lausekkeen arvoksi oikeanpuoleinen osa eli <i>false</i>.
-
-> Jos ollaan tarkkoja, niin kentän <i>important</i> arvon ollessa <i>false</i>, tulee lausekkeen <em>body.important || false</em> arvoksi oikean puoleinen <i>false</i>...
+Kaksinkertainen negaatio muuntaa arvon alkuperäistä vastaavaksi boolean-arvoksi. Jos siis sovelluksen vastaanottamassa muuttujaan _body_ talletetussa datassa kentän <i>important</i> arvo on epätosi (_undefined, null, '', 0_) tulee arvoksi <i>false</i>, muuten <i>true</i>. 
 
 Sovelluksen tämän hetkinen koodi on kokonaisuudessaan [githubissa](https://github.com/fullstack-hy2019/part3-notes-backend/tree/part3-1)
 
