@@ -30,7 +30,6 @@
 <url> <loc>https://fullstackopen-2019.github.io/osa7/luokkakomponentit_e_2_e_testaus</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen-2019.github.io/osa2/palvelimella_olevan_datan_hakeminen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen-2019.github.io/osa2/palvelimella_olevan_datan_muokkaaminen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fullstackopen-2019.github.io/osa5/react_sovellusten_testaaminen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen-2019.github.io/osa6/flux_arkkitehtuuri_ja_redux</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen-2019.github.io/osa7/webpack</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen-2019.github.io/osa8/react_ja_graph_ql</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -46,6 +45,7 @@
 <url> <loc>https://fullstackopen-2019.github.io/osa0/yleista</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen-2019.github.io/osa8/fragmentit_ja_subskriptiot</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen-2019.github.io/osa4/sovelluksen_rakenne_ja_testauksen_alkeet</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fullstackopen-2019.github.io/osa5/react_sovellusten_testaaminen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen-2019.github.io/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen-2019.github.io/challenge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen-2019.github.io/companies/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
