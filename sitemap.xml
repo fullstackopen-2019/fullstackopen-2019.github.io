@@ -13,7 +13,6 @@
 <url> <loc>https://fullstackopen.com/osa8/kirjautuminen_ja_valimuistin_paivitys</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa8/tietokanta_ja_kayttajien_hallinta</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa1/reactin_alkeet</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fullstackopen.com/osa1/javascriptia</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa1/komponentin_tila_ja_tapahtumankasittely</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa2/kokoelmien_renderointi_ja_moduulit</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa2/lomakkeiden_kasittely</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -46,6 +45,7 @@
 <url> <loc>https://fullstackopen.com/osa7/sekalaista</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa7</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa8</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fullstackopen.com/osa1/javascriptia</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/challenge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/companies/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
