@@ -215,7 +215,7 @@ Async/await-kikan hyödyt tulevat nyt selkeästi esiin. Normaalisti tarvitsisimm
 const res = await api.get('/api/notes')
 
 // tänne tullaan vasta kun edellinen komento eli HTTP-pyyntö on suoritettu
-// muuttujassa res on nyt HTTP-pyynnön tulos
+// muuttujassa response on nyt HTTP-pyynnön tulos
 expect(res.body.length).toBe(3)
 ```
 
