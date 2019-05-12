@@ -32,7 +32,6 @@
 <url> <loc>https://fullstackopen.com/osa7/sekalaista</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa7</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa8</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fullstackopen.com/osa0/yleista</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa4/sovelluksen_rakenne_ja_testauksen_alkeet</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa6/flux_arkkitehtuuri_ja_redux</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa3/tietojen_tallettaminen_mongo_db_tietokantaan</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -46,6 +45,7 @@
 <url> <loc>https://fullstackopen.com/osa2/palvelimella_olevan_datan_muokkaaminen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa6/monta_reduseria_connect</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa4/backendin_testaaminen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fullstackopen.com/osa0/yleista</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/challenge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/companies/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
