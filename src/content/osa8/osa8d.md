@@ -106,12 +106,16 @@ const LoginForm = (props) => {
 export default LoginForm
 ```
 
-Lisätään sovellukselle myös nappi, jonka avulla kirjautunut käyttäjä voi kirjautua ulos. Napin klikkauskäsittelijässä asetetaan  _token_ tilaan null, poistetaan token local storagesta ja resetoidaan Apollo clientin välimuisti. Tämä on [tärkeää](https://www.apollographql.com/docs/react/recipes/authentication.html#login-logout), sillä joissain kyselyissä välimuistiin on saatettu hakea dataa, johon vain kirjaantuneella käyttäjällä on oikeus päästä käsiksi.
+Lisätään sovellukselle myös nappi, jonka avulla kirjautunut käyttäjä voi kirjautua ulos. Napin klikkauskäsittelijässä asetetaan  _token_ tilaan null, poistetaan token local storagesta ja resetoidaan Apollo clientin välimuisti. Tämä on [tärkeää](https://www.apollographql.com/docs/react/recipes/authentication.html#login-logout), sillä joissain kyselyissä välimuistiin on saatettu hakea dataa, johon vain kirjaantuneella käyttäjällä on oikeus päästä käsiksi. Lisätään koodiin myös _useEffect_-hook, jotta sivun uudelleenlataamisen yhteydessä kirjautumistieto säilyy.
 
 
 ```js
 const App = () => {
   const client = useApolloClient()
+  
+  useEffect(() => {
+    setToken(localStorage.getItem('phonenumbers-user-token'))
+  }, [])
 
   // ...
 
