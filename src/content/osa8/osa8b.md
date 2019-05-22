@@ -676,7 +676,7 @@ const App = () => {
 Muutoksen suorittava komponentti <i>PhoneForm</i> on suoraviivainen, se kysyy lomakkeen avulla henkilön nimeä ja uutta puhelinnumeroa, ja kutsuu mutaation tekevää funktiota _editNumber_:
 
 ```js
-const PersonForm = (props) => {
+const PhoneForm = (props) => {
   const [name, setName] = useState('')
   const [phone, setPhone] = useState('')
 
