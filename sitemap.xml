@@ -61,8 +61,8 @@
 <url> <loc>https://fullstackopen.com/osa2/tyylien_lisaaminen_react_sovellukseen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/part2/adding_styles_to_react_app</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/part2/altering_data_in_server</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fullstackopen.com/en/part0/general_info</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/part0/fundamentals_of_web_apps</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fullstackopen.com/en/part0/general_info</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/challenge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
