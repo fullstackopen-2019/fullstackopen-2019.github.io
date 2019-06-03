@@ -91,7 +91,7 @@ const App = ...
 
 There are a few ways to define functions in Javascript. Here we will use [arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), which are described in a newer version of Javascript known as [EcmaScript 6](http://es6-features.org/#Constants), also called ES6.
 
-Because the function consist of only a single expression we have used a shorthand, which represents this piece of code:
+We have used a shorthand, because the function does nothing but return a value created in a single expression. The following is the long-form of our previous code snippet:
 
 ```js
 const App = () => {
@@ -102,10 +102,9 @@ const App = () => {
   )
 }
 ```
+As is evident, the function returns the value of the expression and does nothing else.
 
-In other words, the function returns the value of the expression.
-
-The function defining the component may contain any kind of Javascript code. Modify your component to be as follows and observe what happens in the console:
+But the function defining the component can contain any kind of JavaScript code. Modify your component to be as follows and observe what happens in the console:
 
 ```js
 const App = () => {
