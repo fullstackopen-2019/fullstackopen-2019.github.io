@@ -40,7 +40,6 @@
 <url> <loc>https://fullstackopen.com/en/part2/rendering_a_collection_modules</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/part2/forms</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa3/sovellus_internetiin</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fullstackopen.com/osa4/sovelluksen_rakenne_ja_testauksen_alkeet</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa4/kayttajien_hallinta</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa4/token_perustainen_kirjautuminen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/part3/deploying_app_to_internet</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -70,6 +69,7 @@
 <url> <loc>https://fullstackopen.com/osa3/node_js_ja_express</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/part3/node_js_and_express</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa4/backendin_testaaminen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fullstackopen.com/osa4/sovelluksen_rakenne_ja_testauksen_alkeet</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/challenge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
