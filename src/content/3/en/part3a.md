@@ -1002,7 +1002,7 @@ The application must also offer an _npm run_ command that will run the applicati
 #### 3.2: Phonebook backend step2
 
 
-Implement a page at the address <http://localhost:3001/info> that looks roughly like this:
+Implement a page at the address <http://localhost:3001/api/info> that looks roughly like this:
 
 ![](../../images/3/23e.png)
 
