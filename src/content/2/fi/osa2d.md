@@ -661,7 +661,7 @@ const toggleImportanceOf = id => {
     // highlight-start
     .catch(error => {
       alert(
-        `the note '${note.content}' was already deleted from server`
+        `the note ${note.content} was already deleted from server`
       )
       setNotes(notes.filter(n => n.id !== id))
     })
