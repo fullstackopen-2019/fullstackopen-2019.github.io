@@ -735,7 +735,7 @@ Uuden muistiinpanon sisältö saadaan suoraan lomakkeen syötekentästä, johon 
 Tärkeyden muuttaminen tapahtuu klikkaamalla muistiinpanon nimeä. Käsittelijä on erittäin yksinkertainen:
 
 ```js
-toggleImportance = (id) => {
+toggleImportance = (id) => () => {
   store.dispatch({
     type: 'TOGGLE_IMPORTANCE',
     data: { id }
