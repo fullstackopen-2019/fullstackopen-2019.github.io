@@ -314,6 +314,7 @@ Testimme käyttää jo jestin metodia [afterAll](https://facebook.github.io/jest
 Päätetään alustaa tietokanta ennen <i>jokaisen testin suoritusta,</i> eli funktiossa [beforeEach](https://jestjs.io/docs/en/api.html#aftereachfn-timeout):
 
 ```js
+const mongoose = require('mongoose')
 const supertest = require('supertest')
 const app = require('../app')
 const api = supertest(app)
