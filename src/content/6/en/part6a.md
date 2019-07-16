@@ -13,19 +13,19 @@ So far, we have followed the state management conventions recommended by React. 
 ### Flux-architecture
 
 
-Facebook developed the [Flux](https://facebook.github.io/flux/docs/in-depth-overview.html#content)- architecture to make state management easier. In Flux, the state is separated completely from the React-components into its own <i>stores</i>.
+Facebook developed the [Flux](https://facebook.github.io/flux/docs/in-depth-overview)- architecture to make state management easier. In Flux, the state is separated completely from the React-components into its own <i>stores</i>.
 State in the store is not changed directly, but with different <i>actions</i>.
 
 
 When an action changes the state of the store, the views are rerendered: 
 
-![](https://facebook.github.io/flux/img/flux-simple-f8-diagram-1300w.png)
+![](https://facebook.github.io/flux/img/overview/flux-simple-f8-diagram-1300w.png)
 
 
 If some action on the application, for example pushing a button, causes the need to change the state, the change is made with an action. 
 This causes rerendering the view again: 
 
-![](https://facebook.github.io/flux/img/flux-simple-f8-diagram-with-client-action-1300w.png)
+![](https://facebook.github.io/flux/img/overview/flux-simple-f8-diagram-with-client-action-1300w.png)
 
 
 Flux offers a standard way for how and where the application's state is kept and how it is modified. 
