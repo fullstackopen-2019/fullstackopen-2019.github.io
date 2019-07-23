@@ -73,7 +73,7 @@ The chain of events caused by opening the page https://fullstack-exampleapp.hero
 
 ![](../../images/0/7e.png)
 
-First, the browser does a HTTP GET request to the server to fetch the HTML code of the page. The <i>img</i> tag in the HTML prompts the browser to fetch the image <i>kuva.png</i>. The browser renders the HTML page and the image to the screen. 
+First, the browser does an HTTP GET request to the server to fetch the HTML code of the page. The <i>img</i> tag in the HTML prompts the browser to fetch the image <i>kuva.png</i>. The browser renders the HTML page and the image to the screen. 
 
 Even though it is difficult to notice, the HTML page begins to render before the image has been fetched from the server. 
 
@@ -328,7 +328,7 @@ document.getElementById('notes').appendChild(ul)
 
 ### Manipulating the document-object from console
 
-The topmost node of the DOM tree of a HTML document is called the <em>document</em> object. We can perform various operations on a web-page using the DOM-API. You can access the <em>document</em> object by typing <em>document</em> into the Console-tab: 
+The topmost node of the DOM tree of an HTML document is called the <em>document</em> object. We can perform various operations on a web-page using the DOM-API. You can access the <em>document</em> object by typing <em>document</em> into the Console-tab: 
 
 ![](../../images/0/15e.png)
 
