@@ -160,10 +160,14 @@ notesRouter.post('/', async (request, response, next) => {
 
 //highlight-start
   try {
+    if (!token) {
+      return response.status(401).json({ error: 'token missing' })
+    }
+  
     const decodedToken = jwt.verify(token, process.env.SECRET)
 
-    if (!token || !decodedToken.id) {
-      return response.status(401).json({ error: 'token missing or invalid' })
+    if (!decodedToken.id) {
+      return response.status(401).json({ error: 'invalid token' })
     }
 //highlight-end
 
