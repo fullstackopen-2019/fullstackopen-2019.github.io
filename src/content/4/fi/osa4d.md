@@ -161,10 +161,7 @@ notesRouter.post('/', async (request, response, next) => {
 //highlight-start
   try {
     const decodedToken = jwt.verify(token, process.env.SECRET)
-
-    if (!token || !decodedToken.id) {
-      return response.status(401).json({ error: 'token missing or invalid' })
-    }
+    
 //highlight-end
 
     const user = await User.findById(decodedToken.id) //highlight-line
@@ -193,16 +190,6 @@ const decodedToken = jwt.verify(token, process.env.SECRET)
 ```
 
 Tokenista dekoodatun olion sisällä on kentät <i>username</i> ja <i>id</i> eli se kertoo palvelimelle kuka pyynnön on tehnyt.
-
-Jos tokenia ei ole tai tokenista dekoodattu olio ei sisällä käyttäjän identiteettiä (eli _decodedToken.id_ ei ole määritelty), palautetaan virheestä kertova statuskoodi [401 unauthorized](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.2) ja kerrotaan syy vastauksen bodyssä:
-
-```js
-if (!token || !decodedToken.id) {
-  return response.status(401).json({
-    error: 'token missing or invalid'
-  })
-}
-```
 
 Kun pyynnön tekijän identiteetti on selvillä, jatkuu suoritus entiseen tapaan.
 
