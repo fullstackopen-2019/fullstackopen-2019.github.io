@@ -1106,7 +1106,8 @@ Change your application to display statistics only once feedback has been gather
 
 ![](../../images/1/15e.png)
 
-<h4>1.10: unicafe step5</h4>
+<h4>1.10: unicafe step5</h4> 
+ 
 
 Let's continue refactoring the application. Extract the following two components:
 
