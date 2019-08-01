@@ -398,6 +398,12 @@ Turn the application into a functioning <i>npm</i> project. In order to keep you
 
 Verify that it is possible to add blogs to list with Postman or the VS Code REST client and that the application returns the added blogs at the correct endpoint.
 
+Ensure that your Node version is newer than 9.6 by running 
+```bash 
+node-v 
+```
+Earlier versions may cause unexpected errors.
+
 
 #### 4.2 Blog list, step2
 
