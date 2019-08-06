@@ -945,6 +945,7 @@ Notice that the master branch of the repository contains the code from a later v
 If you clone the project, run the _npm install_ command before starting the application with _npm start_ or _npm run watch_.
 
 
+__THIS SHOULD HAVE BEEN EXPLAINED RIGHT AFTER IT HAS APPEARED IN THE CODE. AT LEAST THEN IT WOULD FOLLOW COURSE LOGIC__
 One more thing before we move onto the exercises. The function for generating IDs looks currently like this:
 
 ```js
