@@ -1243,3 +1243,4 @@ Jos suurimman äänimäärän saaneita anekdootteja on useita, riittää että n
 Tämä oli osan viimeinen tehtävä ja on aika pushata koodi githubiin sekä merkata tehdyt tehtävät [palautussovellukseen](https://studies.cs.helsinki.fi/fullstackopen2019).
 
 </div>
+
