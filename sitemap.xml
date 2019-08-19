@@ -21,7 +21,6 @@
 <url> <loc>https://fullstackopen.com/en/part8</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa8</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa0/yleista</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fullstackopen.com/en/part0/general_info</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/part2/adding_styles_to_react_app</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa2/tyylien_lisaaminen_react_sovellukseen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/part3/validation_and_es_lint</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -92,6 +91,7 @@
 <url> <loc>https://fullstackopen.com/osa4/backendin_testaaminen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/part4/testing_the_backend</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/part3/node_js_and_express</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fullstackopen.com/en/part0/general_info</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/challenge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
