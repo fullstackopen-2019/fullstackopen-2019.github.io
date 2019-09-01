@@ -765,9 +765,8 @@ Let's import body-parser and implement an initial handler for dealing with the H
 ```js
 const express = require('express')
 const app = express()
-const bodyParser = require('body-parser')
 
-app.use(bodyParser.json())
+app.use(express.json())
 
 //...
 
