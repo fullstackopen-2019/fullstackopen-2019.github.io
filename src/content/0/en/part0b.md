@@ -403,7 +403,7 @@ Changes made on the console will not be permanent. If you want to make lasting c
 
 ### Loading a page containing JavaScript - revised
 
-Let's revise what happens when the page https://fullstack-exampleapp.herokuapp.com/notes is opened on the browser. 
+Let's review what happens when the page https://fullstack-exampleapp.herokuapp.com/notes is opened on the browser. 
 
 ![](../../images/0/19e.png)
 
