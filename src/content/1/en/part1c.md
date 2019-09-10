@@ -701,9 +701,11 @@ Next, let's make a <i>Button</i> component for the buttons of our application. W
 
 ```js
 const Button = (props) => (
-  <button onClick={props.onClick}>
-    {props.text}
-  </button>
+  return (
+    <button onClick={props.onClick}>
+      {props.text}
+    </button>
+  )
 )
 ```
 
@@ -711,9 +713,11 @@ and let's utilize destructuring again to unpack and assign the needed properties
 
 ```js
 const Button = ({ onClick, text }) => (
-  <button onClick={onClick}>
-    {text}
-  </button>
+  return (
+    <button onClick={onClick}>
+      {text}
+    </button>
+  )
 )
 ```
 
