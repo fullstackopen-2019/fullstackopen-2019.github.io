@@ -468,6 +468,8 @@ Defining Node [modules](https://nodejs.org/docs/latest-v8.x/api/modules.html) di
 
 The public interface of the module is defined by setting a value to the _module.exports_ variable. We will set the value to be the <i>Note</i> model. The other things defined inside of the module, like the variables _mongoose_ and _url_ will not be accessible or visible to users of the module.
 
+THERE'S NO NEED TO EXPLICITLY CLOSE DB CONNECTION (_mongoose.connection.close()_)? WHY?
+
 Importing the module happens by adding the following line to <i>index.js</i>:
 
 ```js
