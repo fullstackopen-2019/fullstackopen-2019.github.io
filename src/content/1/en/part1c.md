@@ -730,15 +730,15 @@ const App = (props) => {
       <Display counter={counter}/>
       // highlight-start
       <Button
-        onClick={() => setToValue(counter + 1)}
+        onClick={setToValue(counter + 1)}
         text='plus'
       />
       <Button
-        onClick={() => setToValue(counter - 1)}
+        onClick={setToValue(counter - 1)}
         text='minus'
       />
       <Button
-        onClick={() => setToValue(0)}
+        onClick={setToValue(0)}
         text='zero'
       />
       // highlight-end
