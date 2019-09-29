@@ -484,6 +484,8 @@ Dev tools näyttää hookien tilan siinä järjestyksessä kun ne on määritelt
 
 Dev toolsin hookien toteutusta käsitellään [tässä issuessa](https://github.com/facebook/react-devtools/issues/1215).
 
+Dev toolsin hookeja tukeva versio on julkaistu ja sen kehitys on siirtynyt react repon alaisuuteen. Hookien parempaa debuggausta käsitellään [tässä issuessa](https://github.com/facebook/react/issues/16474).
+
 Dev toolsin hookeja tukevasta versiosta on jo tehty epävirallinen [beta-julkaisu](https://github.com/bvaughn/react-devtools-experimental). En saanut itse Chrome-versiota toimimaan, mutta Firefox-versio toimii ja näyttää hookatun taulukkomuotoisen tilan hyvin
 
 ![](../../images/1/11be.png)
