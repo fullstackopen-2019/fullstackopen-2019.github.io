@@ -757,6 +757,7 @@ Laajennetaan sovellusta siten, että kursseja voi olla <i>mielivaltainen määr�
 const App = () => {
   const courses = [
     {
+      courseCode: "CS101",
       name: 'Half Stack application development',
       parts: [
         {
@@ -782,6 +783,7 @@ const App = () => {
       ]
     }, 
     {
+      courseCode: "CS102",
       name: 'Node.js',
       parts: [
         {
