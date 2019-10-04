@@ -87,7 +87,7 @@ Let's wait for the cluster to be ready for use. This will take approximately 10 
 
 **NB** do not continue before the cluster is ready.
 
-Let's use the <i>security</i> tab for creating user credentials for the database. Please note that these are not the same credentials you use for logging into MongoDB Atlas.
+Let's use the <i>Security</i> section in the sidebar to set up some user credentials and other permissions for the database. First, let's go to <i>Database Access</i> to create user credentials for the database. Please note that these are not the same credentials you use for logging into MongoDB Atlas.
 
 ![](../../images/3/59.png)
 
@@ -105,18 +105,23 @@ For the sake of simplicity we will allow access from all IP addresses:
 
 ![](../../images/3/62.png)
 
-Finally we are ready to connect to our database. Let's choose <i>Connect your application</i> <i>Short SRV connection string</i>
+Finally we are ready to connect to our database. Click on <i>Connect</i> for the cluster. 
+
+![](../../images/3/63.png)
+
+Choose "Connect Your Application", select the appropriate Node.js and driver version, and make sure <i>Connection String Only</i> is selected.
 
 ![](../../images/3/64.png)
 
-
-The view displays the <i>MongoDB URI</i>, which is the address of the database that we will supply to the MongoDB client library we will add to our application.
+The connection string displays the <i>MongoDB URI</i>, which is the address of the database that we will supply to the MongoDB client library we will add to our application.
 
 The address looks like this:
 
 ```bash
-mongodb+srv://fullstack:<PASSWORD>@cluster0-ostce.mongodb.net/test?retryWrites=true
+mongodb+srv://<USERNAME>:<PASSWORD>@cluster0-ostce.mongodb.net/test?retryWrites=true&w=majority
 ```
+
+**NB** Make sure that the URI path points to the `/test` database, not to `/admin`.
 
 We are now ready to use the database.
 
@@ -142,29 +147,31 @@ if ( process.argv.length<3 ) {
 
 const password = process.argv[2]
 
-const url =
-  `mongodb+srv://fullstack:${password}@cluster0-ostce.mongodb.net/test?retryWrites=true`
+const url = `mongodb+srv://fullstack:${password}@cluster0-ostce.mongodb.net/test?retryWrites=true&w=majority`
 
-mongoose.connect(url, { useNewUrlParser: true })
+mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
+    .then(() => console.log('DB Connected!'))
+    .catch(err => console.log(`DB Connection Error: ${ err.message }`))
 
 const noteSchema = new mongoose.Schema({
-  content: String,
-  date: Date,
-  important: Boolean,
+    content: String,
+    date: Date,
+    important: Boolean,
 })
 
 const Note = mongoose.model('Note', noteSchema)
 
 const note = new Note({
-  content: 'HTML is Easy',
-  date: new Date(),
-  important: true,
+    content: 'HTML is Easy',
+    date: new Date(),
+    important: true,
 })
 
-note.save().then(response => {
-  console.log('note saved!')
-  mongoose.connection.close()
-})
+note.save()
+    .then(response => console.log('note saved!'))
+    .catch(err => console.error(`note save error: ${err.message}`))
+    .finally(() => mongoose.connection.close());
+
 ```
 
 The code assumes that it will be passed the password from the credentials we created in MongoDB Atlas as a command line parameter. We can access the command line parameter like this:
