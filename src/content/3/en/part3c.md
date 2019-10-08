@@ -168,9 +168,11 @@ const note = new Note({
 })
 
 note.save()
-  .then(response => console.log('note saved!'))
+  .then(response => {
+    console.log('note saved!')
+    mongoose.connection.close()
+  })
   .catch(err => console.error(`note save error: ${err.message}`))
-  .finally(() => mongoose.connection.close());
 
 ```
 
