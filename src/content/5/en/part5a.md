@@ -521,7 +521,7 @@ const App = () => {
     if (loggedUserJSON) {
       const user = JSON.parse(loggedUserJSON)
       setUser(user)
-      noteService.setToken(user.token)
+  //    noteService.setToken(user.token)
     }
   }, [])
   // highlight-end
