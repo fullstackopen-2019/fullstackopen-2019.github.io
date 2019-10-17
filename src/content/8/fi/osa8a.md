@@ -401,7 +401,7 @@ Osoittamalla oikeaa kohtaa virheelliseltä riviltä saa virheilmoituksen näkyvi
 
 Jos Playground vaikuttaa olevan jumissa, niin sivun reloadaaminen yleensä auttaa.
 
-Klikkaamalla oikean reunan tekstiä <i>DOCS</i> näyttää Playground palvelimen GraphQL-skeeman.
+Klikkaamalla oikean reunan tekstiä <i>DOCS</i> näyttää Playground-palvelimen GraphQL-skeeman.
 
 ![](../../images/8/4e.png)
 
