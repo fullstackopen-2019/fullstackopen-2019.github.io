@@ -48,7 +48,7 @@ Clicking the first event reveals more information on what's happening:
 
 ![](../../images/0/3e.png)
 
-The upper part, <i>General</i>, shows that the browser did a request to the address <i>https://fullstack-exampleapp.herokuapp.com/</i> using the  [GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET) method, and that the request was successful, because the server response had the [Status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) 200. 
+The upper part, <i>General</i>, shows that the browser made a request to the address <i>https://fullstack-exampleapp.herokuapp.com/</i> using the  [GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET) method, and the request was successful, because the server response had the [Status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) 200. 
 
 The request and the server response have several [headers](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields):
 
@@ -67,9 +67,9 @@ Because of the img tag, the browser does a second <i>HTTP-request</i> to fetch t
 
 ![](../../images/0/6e.png)
 
-The request was made to the address <https://fullstack-exampleapp.herokuapp.com/kuva.png> and its type is HTTP GET. The response headers tell us that the response size is 89350 bytes, and its [Content-type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type) is <i>image/png</i>, so it is a png image. The browser uses this information to render the image correctly to the screen. 
+The request was made to the address <https://fullstack-exampleapp.herokuapp.com/kuva.png> and its type is HTTP GET. The response headers tell us the response size is 89350 bytes, and its [Content-type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type) is <i>image/png</i>, so it is a png image. The browser uses this information to render the image correctly to the screen. 
 
-The chain of events caused by opening the page https://fullstack-exampleapp.herokuapp.com/ on a browser form the following [sequence diagram](https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams/):
+The chain of events caused by opening the page https://fullstack-exampleapp.herokuapp.com/ on a browser may be visualized with the following [sequence diagram](https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams/):
 
 ![](../../images/0/7e.png)
 
@@ -79,7 +79,7 @@ Even though it is difficult to notice, the HTML page begins to render before the
 
 ### Traditional web applications
 
-The homepage of the example application works like a <i>traditional web application</i>. When entering the page, the browser fetches the HTML document detailing the structure and the textual content of the page from the server.
+The homepage of the example application works like a <i>traditional web application</i>. When entering the page, the browser fetches the HTML document detailing the structure and textual content of the page from the server.
 
 The server has formed this document somehow. The document can be a <i>static</i> text file saved into the server's directory. The server can also form the HTML documents <i>dynamically</i>  according to the application code, using, for example, data from a database. 
 The HTML code of the example application has been formed dynamically, because it contains information on the number of created notes. 
@@ -112,7 +112,7 @@ app.get('/', (req, res) => {
 ```
 You don't have to understand the code just yet. 
 
-The content of the HTML page has been saved as a template string, or a string which allows for evaluating, for example, variables in the midst of it. The dynamically changing part of the homepage, the amount of saved notes (in the code <em>noteCount</em>), is replaced by the current amount of notes (in the code <em>notes.length</em>) in the template string.
+The content of the HTML page has been saved as a template string, or a string which allows variables to be placed within it. The dynamically changing part of the homepage, the amount of saved notes (in the code <em>noteCount</em>), is replaced by the current amount of notes (in the code <em>notes.length</em>) in the template string.
 
 Writing HTML in the midst of the code is of course not smart, but for old-school PHP-programmers it was a normal practice.
 
@@ -230,7 +230,7 @@ By clicking the little triangle at the beginning of the line, you can expand the
 
 ![](../../images/0/13e.png)
 
-This output on the console is caused by <em>console.log</em> command in the code:
+This output on the console is caused by the <em>console.log</em> command in the code:
 
 ```js
 const data = JSON.parse(this.responseText)
@@ -302,7 +302,7 @@ The same treelike structure can be seen on the console tab <i>Elements</i>.
 
 ![](../../images/0/14e.png)
 
-The functioning of the browser is based on the idea of depicting HTML elements as a tree. 
+The functionality of the browser builds on the concept of accepting HTML elements resemble a tree-like structure. 
 
 Document Object Model, or [DOM](https://en.wikipedia.org/wiki/Document_Object_Model) is an Application Programming Interface, (an <i>API</i>), which enables programmatic modification of the <i>element trees</i> corresponding to web-pages.
 
@@ -326,7 +326,7 @@ Finally, the tree branch of the <em>ul</em> variable is connected to its proper 
 document.getElementById('notes').appendChild(ul)
 ```
 
-### Manipulating the document-object from console
+### Manipulating the document-object from the console
 
 The topmost node of the DOM tree of a HTML document is called the <em>document</em> object. We can perform various operations on a web-page using the DOM-API. You can access the <em>document</em> object by typing <em>document</em> into the Console-tab: 
 
@@ -345,7 +345,7 @@ Then create a new li-element and add some text content to it:
 
 ```js
 newElement = document.createElement('li')
-newElement.textContent = 'Page manipulation from console is easy'
+newElement.textContent = 'Page manipulation from the console is easy'
 ```
 
 And add the new li-element to the list:
