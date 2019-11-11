@@ -26,7 +26,6 @@
 <url> <loc>https://fullstackopen.com/osa4/token_perustainen_kirjautuminen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa5/props_children_ja_proptypet</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa5/kirjautuminen_frontendissa</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fullstackopen.com/en/part7/more_about_styles</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa7/react_router</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa7/lisaa_tyyleista</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa5/react_sovellusten_testaaminen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -92,6 +91,7 @@
 <url> <loc>https://fullstackopen.com/osa8/kirjautuminen_ja_valimuistin_paivitys</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa8/graph_ql_palvelin</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/part4/testing_the_backend</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fullstackopen.com/en/part7/more_about_styles</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/challenge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
