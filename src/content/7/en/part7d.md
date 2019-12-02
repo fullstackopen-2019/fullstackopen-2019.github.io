@@ -52,7 +52,7 @@ The component now has a [constructor](https://reactjs.org/docs/react-component.h
 
 
 
-Let's define a state for the list of anecdotes and the currently visible anecdote. In contrast to when using the [useState](https://reactjs.org/docs/hooks-state.html)-hook Class Components only contain one state. So if the state is made up of multiple "parts" they should be stored as properties of the state. The state is initialized in the constructor:
+Let's define a state for the list of anecdotes and the currently visible anecdote. In contrast to when using the [useState](https://reactjs.org/docs/hooks-state.html)-hook, Class Components only contain one state. So if the state is made up of multiple "parts" they should be stored as properties of the state. The state is initialized in the constructor:
 
 ```js
 class App extends React.Component {
@@ -130,7 +130,7 @@ Calling the method setState always trigger the rerender of the Class Component, 
 
 
 
-We'll finish off the the component with the ability to change the shown anecdote. The following is the code for the entire component with the addition highlighted:
+We'll finish off the component with the ability to change the shown anecdote. The following is the code for the entire component with the addition highlighted:
 
 ```js
 class App extends React.Component {
@@ -244,7 +244,7 @@ In the [previous version of this course](https://fullstackopen.github.io/osa7/) 
 
 
 
-Even though E2E for web applications has been technologically possible for more than ten years it has been woefully difficult, especially when it comes to applications created using the Single Page App(SPA) -principle. SPA-tests have often been unreliable, or some might say [flaky](https://hackernoon.com/flaky-tests-a-war-that-never-ends-9aa32fdef359): sometimes particular tests pass and sometimes they don't, even though the code remains unchanged.
+Even though E2E for web applications has been technologically possible for more than ten years, it has been woefully difficult, especially when it comes to applications created using the Single Page App(SPA) principle. SPA-tests have often been unreliable, or some might say [flaky](https://hackernoon.com/flaky-tests-a-war-that-never-ends-9aa32fdef359): sometimes particular tests pass and sometimes they don't, even though the code remains unchanged.
 
 
 
