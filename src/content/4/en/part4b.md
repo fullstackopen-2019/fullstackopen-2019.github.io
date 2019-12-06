@@ -1193,7 +1193,7 @@ describe('when there is initially some notes saved', () => {
       await api
         .post('/api/notes')
         .send(newNote)
-        .expect(201)
+        .expect(200)
         .expect('Content-Type', /application\/json/)
 
 
