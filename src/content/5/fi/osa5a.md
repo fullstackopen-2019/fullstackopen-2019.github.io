@@ -509,7 +509,7 @@ tai local storagen tilan kokonaan nollaavan komennon
 window.localStorage.clear()
 ```
 
-Sovelluksen tämänhetkinen koodi on kokonaisuudessaan [githubissa]https://github.com/fullstackopen-2019/part2-notes/tree/part5-3), branchissa <i>part5-3</i>.
+Sovelluksen tämänhetkinen koodi on kokonaisuudessaan [githubissa](https://github.com/fullstackopen-2019/part2-notes/tree/part5-3), branchissa <i>part5-3</i>.
 
 </div>
 
