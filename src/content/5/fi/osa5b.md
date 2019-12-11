@@ -666,8 +666,9 @@ module.exports = {
             "error", { "before": true, "after": true }
         ],
         "no-console": 0,
-        "react/prop-types": 0
+        "react/prop-types": 0,
         // highlight-end
+        "react/display-name": 0
     }
 };
 ```
