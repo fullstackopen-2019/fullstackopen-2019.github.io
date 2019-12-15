@@ -32,7 +32,7 @@ If this was an often used functionality, there could be a REST-endpoint for it. 
 A GraphQL server is well suited for these kinds of situations. 
 
 
-The main principle of GraphQL is, that the code on the browser forms a <i>query</i> describing the data wanted, and sends it to the API with an HTTP POST request. Unlike REST, all GraphQL queries are sent to the same address, and their type is POST. 
+The main principle of GraphQL is that the code on the browser forms a <i>query</i> describing the data wanted, and sends it to the API with an HTTP POST request. Unlike REST, all GraphQL queries are sent to the same address, and their type is POST. 
 
 
 The data described in the above scenario could be fetched with ( roughly ) the following query: 
@@ -103,7 +103,7 @@ The application logic stays simple, and the code on the browser gets exactly the
 We will get to know the basics of GraphQL by implementing a GraphQL version of the phonebook application from parts 2 and 3. 
 
 
-In the heart of all GraphQL applications is a [schema](https://graphql.org/learn/schema/), which describes the data sent between client and the server. The initial schema for our phonebook is as follows: 
+In the heart of all GraphQL applications is a [schema](https://graphql.org/learn/schema/), which describes the data sent between the client and the server. The initial schema for our phonebook is as follows: 
 
 ```js
 type Person {
@@ -640,7 +640,7 @@ The current code of the application can be found on [ Github](https://github.com
 ### Mutations
 
 
-Let's add functionality for adding new persons to the phonebook. In GraphQL, all operations which cause a change are done with [mutations](https://graphql.org/learn/queries/#mutations). Mutations are described in the schema as the keys of type <i>Mutation</i>.
+Let's add a functionality for adding new persons to the phonebook. In GraphQL, all operations which cause a change are done with [mutations](https://graphql.org/learn/queries/#mutations). Mutations are described in the schema as the keys of type <i>Mutation</i>.
 
 
 The schema for a mutation for adding a new person looks as follows: 
@@ -657,7 +657,7 @@ type Mutation {
 ```
 
 
-The Mutation is given the details of the person as parameters. The parameter <i>phone</i> is the only one which is not non-null. The Mutation also has a return value. The return value is type <i>Person</i>, the idea being that the details of the added person are returned is the operation is successful and if not, null. Value for the field <i>id</i> is not given as a parameter. Generating an id is better left for the server. 
+The Mutation is given the details of the person as parameters. The parameter <i>phone</i> is the only one which is not non-null. The Mutation also has a return value. The return value is type <i>Person</i>, the idea being that the details of the added person are returned if the operation is successful and if not, null. Value for the field <i>id</i> is not given as a parameter. Generating an id is better left for the server. 
 
 
 Mutations also require a resolver: 
@@ -795,7 +795,7 @@ The current code of the application can be found on [ Github](https://github.com
 ### Enum
 
 
-Let's add a possibility to filter the query returning all persons with the parameter <i>phone</i> so, that it returns only persons with a phone number
+Let's add a possibility to filter the query returning all persons with the parameter <i>phone</i>, so that it returns only persons with a phone number
 
 ```js
 query {
@@ -903,7 +903,7 @@ Mutation: {
 ```
 
 
-The mutation finds the person to be updated person by the field <i>name</i>.
+The mutation finds the person to be updated by the field <i>name</i>.
 
 The current code of the application can be found on [Github](https://github.com/fullstackopen-2019/graphql-phonebook-backend/tree/part8-3), branch <i>part8-3</i>.
 
@@ -981,7 +981,7 @@ The response looks like
 ```
 
 
-In some cases it might be beneficial to name the queries. This is the case especially when the queries or mutations have [parameters](https://graphql.org/learn/queries/#variables). We will go into parameters soon. 
+In some cases it might be beneficial to name the queries. This is the case especially when the queries or mutations have [parameters](https://graphql.org/learn/queries/#variables). We will get into parameters soon. 
 
 
 If there are multiple queries, Playground asks you to choose which of them to run:
@@ -996,7 +996,7 @@ If there are multiple queries, Playground asks you to choose which of them to ru
 
 
 Through the exercises, we will implement a GraphQL backend for a small library. 
-Start with [this file](https://github.com/fullstackopen-2019/misc/blob/master/library-backend.js). Remember _npm init_ and to install dependencies!
+Start with [this file](https://github.com/fullstackopen-2019/misc/blob/master/library-backend.js). Remember to _npm init_ and to install dependencies!
 
 #### 8.1: The number of books and authors
 
@@ -1030,7 +1030,7 @@ should return
 Implement query _allBooks_, which returns the details of all books. 
 
 
-In the end, user should be able to do the following query:
+In the end, the user should be able to do the following query:
 
 ```js
 query {
@@ -1095,7 +1095,7 @@ should return
 #### 8.4: Books of an author
 
 
-Modify the _allBooks_ query so, that user can give an optional parameter <i>author</i>. The response should include only books written by that author. 
+Modify the _allBooks_ query, so that the user can give an optional parameter <i>author</i>. The response should include only books written by that author. 
 
 For example query
 
@@ -1252,7 +1252,7 @@ returns
 #### 8.7: Updating the birth year of an author
 
 
-Implement mutation _editAuthor_, which can be used to set a birth year for an author. The mutation is used like so
+Implement the mutation _editAuthor_, which can be used to set a birth year for an author. The mutation is used like so
 
 ```js
 mutation {
