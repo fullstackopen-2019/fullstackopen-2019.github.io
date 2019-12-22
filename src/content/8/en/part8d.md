@@ -8,11 +8,11 @@ lang: en
 <div class="content">
 
 
-The frontend of our application shows the phone directory just fine with the updated server. However if we want to add new persons, we have to add login functionality to the frontend. 
+The frontend of our application shows the phone directory just fine with the updated server. However if we want to add new persons, we have to add a login functionality to the frontend. 
 
 ### User log in
 
-Let's add variable _token_ to the application's state. It saves the token when user has logged in. If _token_ is undefined, we show the component responsible for logging in, <i>LoginForm</i>. It is given the function responsible for the mutation, _login_, as a parameter:
+Let's add the variable _token_ to the application's state. It saves the token when the user has logged in. If _token_ is undefined, we show the component responsible for logging in, <i>LoginForm</i>. It is given the function responsible for the mutation, _login_, as a parameter:
 
 ```js
 const LOGIN = gql`
@@ -107,7 +107,7 @@ export default LoginForm
 ```
 
 
-Let's also add a button which enables logged in user to log out. The buttons onClick handler sets the _token_ state to null, removes the token from local storage and resets the cache of the Apollo client. 
+Let's also add a button which enables a logged in user to log out. The buttons onClick handler sets the _token_ state to null, removes the token from local storage and resets the cache of the Apollo client. 
 
 The last is [important](https://www.apollographql.com/docs/react/v2.5/recipes/authentication/#reset-store-on-logout), because some queries might have fetched data to cache, which only logged in users should have access to. 
 
