@@ -130,9 +130,9 @@ All of the String fields, except <i>phone</i>, must be given a value. This is ma
 The second type is a [Query](https://graphql.org/learn/schema/#the-query-and-mutation-types). Practically every GraphQL schema describes a Query, which tells what kind of queries can be made to the API. 
 
 
-The phonebook describes three different queries. _PersonCount_ returns an integer, _allPersons_ returns a list of <i>Person</i> objects and <i>findPerson</i> is given a string parameter and it returns a <i>Person</i> object. 
+The phonebook describes three different queries. _personCount_ returns an integer, _allPersons_ returns a list of <i>Person</i> objects and _findPerson_ is given a string parameter and it returns a <i>Person</i> object. 
 
-Again exclamation marks are used to mark which return values and parameters are <i>Non-Null</i>. _PersonCount_ will, for sure, return an integer. The query _findPerson_ must be given a string as a parameter. The query returns a <i>Person</i>-object or <i>null</i>. _AllPersons_ returns a list of <i>Person</i> objects, and the list does not contain any <i>null</i>-values. 
+Again exclamation marks are used to mark which return values and parameters are <i>Non-Null</i>. _personCount_ will, for sure, return an integer. The query _findPerson_ must be given a string as a parameter. The query returns a <i>Person</i>-object or <i>null</i>. _allPersons_ returns a list of <i>Person</i> objects, and the list does not contain any <i>null</i>-values. 
 
 So the schema describes what queries the client can send to the server, what kind of parameters the queries can have, and what kind of data the queries return. 
 
@@ -657,7 +657,7 @@ type Mutation {
 ```
 
 
-The Mutation is given the details of the person as parameters. The parameter <i>phone</i> is the only one which is not non-null. The Mutation also has a return value. The return value is type <i>Person</i>, the idea being that the details of the added person are returned is the operation is successful and if not, null. Value for the field <i>id</i> is not given as a parameter. Generating an id is better left for the server. 
+The Mutation is given the details of the person as parameters. The parameter <i>phone</i> is the only one which is not non-null. The Mutation also has a return value. The return value is type <i>Person</i>, the idea being that the details of the added person are returned if the operation is successful and if not, null. Value for the field <i>id</i> is not given as a parameter. Generating an id is better left for the server. 
 
 
 Mutations also require a resolver: 
