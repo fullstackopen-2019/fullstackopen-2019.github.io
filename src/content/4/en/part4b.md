@@ -56,7 +56,7 @@ We specified the mode of the application to be <i>development</i> in the _npm ru
 There is a slight issue in the way that we have specified the mode of the application in our scripts: it will not work on Windows. We can correct this by installing the [cross-env](https://www.npmjs.com/package/cross-env) package with the command:
 
 ```bash
-npm install --save-dev cross-env
+npm install cross-env
 ```
 
 
