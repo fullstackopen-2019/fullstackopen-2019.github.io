@@ -1095,7 +1095,7 @@ should return
 #### 8.4: Books of an author
 
 
-Modify the _allBooks_ query so, that user can give an optional parameter <i>author</i>. The response should include only books written by that author. 
+Modify the _allBooks_ query so that a user can give an optional parameter <i>author</i>. The response should include only books written by that author. 
 
 For example query
 
