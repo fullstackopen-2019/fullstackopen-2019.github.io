@@ -425,7 +425,11 @@ Note that in this part, there are more exercises besides those found below. <i>D
 
 <i>The application that we will start working on in this exercise will be further developed in a few of the following exercises. In this and other upcoming exercise sets in this course, it is enough to only submit the final state of the application. If desired, you may also create a commit for each exercise of the series, but this is entirely optional.</i>
 
-Use create-react-app to initialize a new application. Modify <i>index.js</i> to match the following
+Use create-react-app to initialize a new application. 
+
+**WARNING** create-react-app automatically makes the project a git repository unless the application is created within an already existing repository. Most likely you **do not want** the project becoming a repository, so run the command _rm -rf .git_ in the root of the project.
+
+Modify <i>index.js</i> to match the following:
 
 ```js
 import React from 'react'
@@ -479,8 +483,6 @@ const App = () => {
   )
 }
 ```
-
-**WARNING** create-react-app automatically makes the project a git repository unless the application is created within an already existing repository. Most likely you **do not want** the project becoming a repository, so run the command _rm -rf .git_ in the root of the project.
 
 <h4>1.2: course information, step2</h4>
 
