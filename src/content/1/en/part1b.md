@@ -173,7 +173,7 @@ The latter of the additions has to be done by using brackets, because when using
 
 Naturally, objects in Javascript can also have methods. However, during this course we do not need to define any objects with methods of their own. This is why they are only discussed briefly during the course.
 
-Objects can also be defined using so-called constructor functions, which results in a mechanism reminiscent of many other programming languages', e.g. Java's classes. Despite this similarity Javascript does not have classes in the same sense as object-oriented programming languages. There has been, however, an addition of the <i>class syntax</i> starting from version ES6, which in some cases helps structure object-oriented classes.
+Objects can also be defined using so-called constructor functions, which results in a mechanism reminiscent of many other programming languages, e.g. Java's classes. Despite this similarity Javascript does not have classes in the same sense as object-oriented programming languages. There has been, however, an addition of the <i>class syntax</i> starting from version ES6, which in some cases helps structure object-oriented classes.
 
 ### Functions
 
