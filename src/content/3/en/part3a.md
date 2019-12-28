@@ -1184,4 +1184,6 @@ This exercise can be completed in a few different ways. One of the possible solu
 - [creating new tokens](https://github.com/expressjs/morgan#creating-new-tokens)
 - [JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
 
+Alternatively, there are other complementary packages availale in npm to improve logging with morgan. One of these is `morgan-body` which acts as a wrapper in `express` and logs to the terminal both `request` and `response` bodies. Documentation is available in [morgan-body](https://www.npmjs.com/package/morgan-body).
+
 </div>
