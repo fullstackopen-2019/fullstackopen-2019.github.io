@@ -231,42 +231,6 @@ console.log src/components/Note.test.js:21
   </li>
 ```
 
-### setup
-
-react-testing-library:n manuaali kehoittaa kutsumaan jokaisen testin jälkeen metodia
-[cleanup](https://testing-library.com/docs/react-testing-library/api#cleanup). Hoidimme asian lisäämällä testitiedostoon [afterEach](https://jestjs.io/docs/en/setup-teardown)-määreen, joka kutsuu metodia:
-
-```js 
-import React from 'react'
-import '@testing-library/jest-dom/extend-expect' // highlight-line
-import { render, cleanup } from '@testing-library/react'
-import { prettyDOM } from '@testing-library/dom' 
-import Note from './Note'
-
-afterEach(cleanup)  // highlight-line
-```
-
-Voisimme toistaa saman kaikkiin testitiedostoihin. Parempi vaihtoehto on kuitenkin [konfiguroida](https://testing-library.com/docs/react-testing-library/setup) cleanup tapahtumaan automaattisesti. Tehdään konfiguraatiota varten tiedosto <i>src/setupTests.js</i> jolla on seuraava sisältö:
-
-```js
-import '@testing-library/jest-dom/extend-expect'
-import '@testing-library/react/cleanup-after-each'
-```
-
-Nyt pääsemme eroon molemmista ylläolevan testikoodin korostetuista riveistä.
-
-**HUOM** mikäli testejä suoritettaessa ei löydetä tiedostossa <i>src/setupTests.js</i> tehtyjä konfiguraatioita, auttaa seuraavan asetuksen lisääminen tiedostoon package.json:
-
-```
-  "jest": {
-    ...
-    "setupFiles": [
-      "<rootDir>/src/setupTests.js"
-    ],
-    ...
-  }
-```
-
 ### Nappien painelu testeissä
 
 Sisällön näyttämisen lisäksi toinen <i>Note</i>-komponenttien vastuulla oleva asia on huolehtia siitä, että painettaessa noten yhteydessä olevaa nappia, tulee propsina välitettyä tapahtumankäsittelijäfunktiota _toggleImportance_ kutsua.
