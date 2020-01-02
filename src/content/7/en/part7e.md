@@ -336,10 +336,6 @@ The difference compared to JavaScript is large; the type checking already finds 
 For the code to be executable in the browser or with Node, code written in Typescript must be compiled to normal JavaScript using a Typescript-compiler. The compilation process can naturally be automated e.g. using Webpack, so that the workflow of the developer remains as smooth as with normal JavaScript.
 
 
-
-[Here](https://www.youtube.com/watch?v=obZaI2rYkLU&list=PLumQiZ25uijis31zaRL7rhzLalSwLqUtm&index=2) you can find a guest lecture by Ilari Richardin and Tuukka Peuraniemen from Terveystalo about Typescript and developing mobile applications using React.
-
-
 #### Server side rendering, isomorphic applications and universal code
 
 
