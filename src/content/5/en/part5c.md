@@ -67,7 +67,7 @@ test('renders content', () => {
     <Note note={note} />
   )
 
-  expect(component.container).toHaveTextContent(
+  expect.objectContaining(
     'Component testing is done with react-testing-library'
   )
 })
@@ -92,7 +92,7 @@ _render_ returns an object that has several properties. One of the properties is
 In the expectation, we verify that the component renders the correct text, which in this case is the content of the note:
 
 ```js
-expect(component.container).toHaveTextContent(
+expect.objectContaining(
   'Component testing is done with react-testing-library'
 )
 ```
@@ -146,7 +146,7 @@ test('renders content', () => {
   )
 
   // method 1
-  expect(component.container).toHaveTextContent(
+  expect.objectContaining(
     'Component testing is done with react-testing-library'
   )
 
@@ -767,13 +767,13 @@ describe('<App />', () => {
     const notes = component.container.querySelectorAll('.note')
     expect(notes.length).toBe(3) 
 
-    expect(component.container).toHaveTextContent(
+    expect.objectContaining(
       'HTML is easy'
     )
-    expect(component.container).toHaveTextContent(
+    expect.objectContaining(
       'Browser can execute only javascript'
     )
-    expect(component.container).toHaveTextContent(
+    expect.objectContaining(
       'The most important methods of HTTP are GET and POST'
     )
   })
