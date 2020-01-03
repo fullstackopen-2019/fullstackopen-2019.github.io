@@ -1150,7 +1150,7 @@ Saat toteuttaa ominaisuudelle testit jos haluat. Jos et, varmista ominaisuuden t
 
 #### 4.14* blogilistan laajennus, step2
 
-Toteuta sovellukseen mahdollisuus yksittäisen blogin muokkaamiseen.
+Toteuta sovellukseen mahdollisuus yksittäisen blogin muokkaamiseen käyttämällä PUT-operaatiota.
 
 Käytä async/awaitia.
 
