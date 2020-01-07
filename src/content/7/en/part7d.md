@@ -741,7 +741,7 @@ describe('Note app', function() {
 
 
 
-The tests and the code for the frontend can be found in full on [github](https://github.com/fullstackopen-2019/part3-notes-backend/tree/part7-1), in the branch <i>part7-1</i>.
+The tests and the code for the frontend can be found in full on [github](https://github.com/fullstackopen-2019/part2-notes/tree/part7-1), in the branch <i>part7-1</i>.
 
 
 
