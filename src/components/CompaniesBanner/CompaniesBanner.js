@@ -39,13 +39,16 @@ const partners = [
     image: { name: 'konecranes.svg', alt: 'Konecranes' },
     url: 'https://careers.konecranes.com/Konecranes/',
   },
+  {
+    image: { name: 'smartly_io.svg', alt: 'Smartly.io' },
+    url: 'https://www.smartly.io/'
+  },
 ];
 
 /* All logos must be in SVG format */
 const inChallenge = [
   'Tivia',
   'Relex',
-  'Smartly.io',
   'Eficode',
   'Sympa',
   'Cinia',
