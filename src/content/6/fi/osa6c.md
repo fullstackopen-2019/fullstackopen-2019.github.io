@@ -50,10 +50,10 @@ Tehdään sitten tuttuun tapaan <i>axiosia</i> hyödyntävä backendistä dataa 
 ```js
 import axios from 'axios'
 
-const baseUrl = 'http://localhost:3001/notes'
+const url = 'http://localhost:3001/notes'
 
 const getAll = async () => {
-  const response = await axios.get(baseUrl)
+  const response = await axios.get(url)
   return response.data
 }
 
