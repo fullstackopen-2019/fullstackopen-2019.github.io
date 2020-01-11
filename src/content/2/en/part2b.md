@@ -478,10 +478,10 @@ Issue a warning with the [alert](https://developer.mozilla.org/en-US/docs/Web/AP
 `${newName} is already added to phonebook`
 ```
 
-If the <em>newName</em> variable holds the value <i>arto</i>, the template string expression returns the string
+If the <em>newName</em> variable holds the value <i>arto hellas</i>, the template string expression returns the string
 
 ```js
-`arto is already added to phonebook`
+`arto hellas is already added to phonebook`
 ```
 
 The same could be done in a more Java-like fashion by using the plus operator:
