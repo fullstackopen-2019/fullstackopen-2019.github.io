@@ -490,7 +490,7 @@ Edellisessä osassa käyttöön ottamamme ESlint valittaa testien käyttämistä
 ```js
 module.exports = {
   "env": {
-    "commonjs": true 
+    "commonjs": true,
     "es6": true,
     "node": true,
     "jest": true, // highlight-line
