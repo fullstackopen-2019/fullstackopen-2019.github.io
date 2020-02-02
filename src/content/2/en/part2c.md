@@ -87,7 +87,7 @@ xhttp.send()
 
 Right at the beginning we register an <i>event handler</i> to the <em>xhttp</em> object representing the HTTP request, which will be called by the JavaScript runtime whenever the state of the <em>xhttp</em> object changes. If the change in state means that the response to the request has arrived, then the data is handled accordingly.
 
-It is worth to note that the code in the event handler is defined before the request is sent to the server. Despite this, the code within the event handler will be executed at a later point in time. Therefore, the code does not execute synchronously "from top to bottom", but does so <i>asynchronously</i>. JavaScript calls the event handler that was registered for the request at some point.
+It is worth noting that the code in the event handler is defined before the request is sent to the server. Despite this, the code within the event handler will be executed at a later point in time. Therefore, the code does not execute synchronously "from top to bottom", but does so <i>asynchronously</i>. JavaScript calls the event handler that was registered for the request at some point.
 
 A synchronous way of making requests that's common in Java programming, for instance, would play out as follows (NB this is not actually working Java code):
 
@@ -517,7 +517,7 @@ The configuration for the whole of our application has steadily grown more compl
 
 ![](../../images/2/18e.png)
 
-The JavaScript code making up our React application is run in the browser. The browser gets the Javascript from the <i>React dev server</i>, which is the application that runs after running the command <em>npm start</em>. The dev-server transforms the JavaScript into a format understood by the browser. Among other things, it stitches together Javascript from different files into one file. We'll discuss the dev-server in more detail in part 7 of the course.
+The JavaScript code making up our React application is run in the browser. The browser gets the Javascript from the <i>react-dev-server</i>, which is the application that runs after running the command <em>npm start</em>. The dev-server transforms the JavaScript into a format understood by the browser. Among other things, it stitches together Javascript from different files into one file. We'll discuss the dev-server in more detail in part 7 of the course.
 
 The React application running in the browser fetches the JSON formatted data from <i>json-server</i> running on port 3001 on the machine. json-server gets its data from the file <i>db.json</i>.
 
