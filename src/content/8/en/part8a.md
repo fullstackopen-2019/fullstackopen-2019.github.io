@@ -231,7 +231,7 @@ The response is like this:
 }
 ```
 
-The return value was not marked as non-Null, so if we search for the details of an unknown
+The return value was marked as <i>Nullable</i>, so if we search for the details of an unknown
 
 ```js
 query {
@@ -657,7 +657,7 @@ type Mutation {
 ```
 
 
-The Mutation is given the details of the person as parameters. The parameter <i>phone</i> is the only one which is not non-null. The Mutation also has a return value. The return value is type <i>Person</i>, the idea being that the details of the added person are returned is the operation is successful and if not, null. Value for the field <i>id</i> is not given as a parameter. Generating an id is better left for the server. 
+The Mutation is given the details of the person as parameters. The parameter <i>phone</i> is the only one which is <i>Nullable</i>. The Mutation also has a return value. The return value is type <i>Person</i>, the idea being that the details of the added person are returned is the operation is successful and if not, null. Value for the field <i>id</i> is not given as a parameter. Generating an id is better left for the server. 
 
 
 Mutations also require a resolver: 
@@ -836,7 +836,7 @@ type Query {
 ```
 
 
-The type <i>YesNo</i> is GraphQL [enum](https://graphql.org/learn/schema/#enumeration-types), or an enumerable, with two possible values <i>YES</i> or <i>NO</i>. In the query _allPersons_ the parameter _phone_  has the type <i>YesNo</i>, but is not non-null. 
+The type <i>YesNo</i> is GraphQL [enum](https://graphql.org/learn/schema/#enumeration-types), or an enumerable, with two possible values <i>YES</i> or <i>NO</i>. In the query _allPersons_ the parameter _phone_  has the type <i>YesNo</i>, but is <i>Nullable</i>. 
 
 
 The resolver changes like so:
