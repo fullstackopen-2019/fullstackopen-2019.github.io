@@ -50,7 +50,6 @@
 <url> <loc>https://fullstackopen.com/en/part4/token_authentication</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/part4/user_administration</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa4/kayttajien_hallinta</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fullstackopen.com/osa4/sovelluksen_rakenne_ja_testauksen_alkeet</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa4/token_perustainen_kirjautuminen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/part5/props_children_and_proptypes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/part5/login_in_frontend</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -92,6 +91,7 @@
 <url> <loc>https://fullstackopen.com/en/part4/testing_the_backend</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/osa4/backendin_testaaminen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/part3/node_js_and_express</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fullstackopen.com/osa4/sovelluksen_rakenne_ja_testauksen_alkeet</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fullstackopen.com/en/challenge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
