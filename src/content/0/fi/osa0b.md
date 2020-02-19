@@ -519,7 +519,7 @@ Pyyntöön liitetty headeri <i>Content-Type</i> kertoo palvelimelle, että pyynn
 
 ![](../../images/0/27e.png)
 
-Ilman headeria palvelin ei osaisi parsia pyynnön mukana tulevaa dataa oiken.
+Ilman headeria palvelin ei osaisi parsia pyynnön mukana tulevaa dataa oikein.
 
 Palvelin vastaa kyselyyn statuskoodilla [201 created](https://httpstatuses.com/201). Tällä kertaa palvelin ei pyydä uudelleenohjausta kuten aiemmassa versiossamme. Selain pysyy samalla sivulla ja muita HTTP-pyyntöjä ei suoriteta.
 
@@ -533,13 +533,13 @@ form.onsubmit = function(e) {
   var note = {
     content: e.target.elements[0].value,
     date: new Date(),
-  )
+  }
 
   notes.push(note)
   e.target.elements[0].value = ''
   redrawNotes()
   sendToServer(note)
-)
+}
 ```
 
 Komennolla <em>document.getElementById('notes\_form')</em> koodi hakee sivulta lomake-elementin ja rekisteröi sille <i>tapahtumankäsittelijän</i> hoitamaan tilanteen, missä lomake "submitoidaan", eli lähetetään. Tapahtumankäsittelijä kutsuu heti metodia <em>e.preventDefault()</em> jolla se estää lomakkeen lähetyksen oletusarvoisen toiminnan. Oletusarvoinen toiminta aiheuttaisi lomakkeen lähettämisen ja sivun uudelleen lataamisen, sitä emme single page -sovelluksissa halua tapahtuvan.

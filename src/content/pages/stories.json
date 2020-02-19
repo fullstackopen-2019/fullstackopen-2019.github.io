@@ -70,6 +70,17 @@
       ],
       "name": "Mikko Kotola",
       "title": "Full stack developer"
+    },
+    {
+      "image": "holly_gibson_sq.jpg",
+      "companyLogo": "smartly_io.svg",
+      "text": [
+        "I’m working as a software developer at Smartly.io, building our image and video templating tools and creating a beautiful and powerful experience for designers who make visual media. Our team works with JavaScript, React, and Node.js. From the first moment, I loved the culture at Smartly.io especially our value of being Humble Hungry Hunters. We have no egos here, and we’re humble.",
+        "At the same time, we’re lifelong learners, hunting for new knowledge, and constantly leveling up. I have a bit of an alternative background. I used to work in IT at a university and took an online PHP class to improve my technical skills. I had the worst experience and thought I’d never become a developer. I went on to work at nonprofits in marketing, website management, and graphic design. My career in software development started when I took part in an intensive Ruby on Rails bootcamp. It was one of the hardest things I had done so far, but it landed me a job as the first—and only—developer in an ed-tech startup. As I was in charge of everything from th servers to the database to the web app, I needed to learn lots of new skills very quickly. I even rebuilt our server in the middle of a Finnish forest during my holiday after it got hacked! Having so much responsibility grew my confidence as a professional developer. Since then, I have worked in multiple companies with different tech stacks and frameworks and advanced to a team lead position.",
+        "I’m one part engineer and one part artist. Coding allows me to use both halves of my brain: the logical part that loves puzzles and problem solving, and the artistic one that enjoys creating beautiful and functional user interfaces. There’s also a profoundly human element to developing software that I like. When we are building creative tools, we need to have empathy and understand our customers’ needs to succeed in producing something easy and powerful to use."
+      ],
+      "name": "Holly Gibson",
+      "title": "Software Developer"
     }
   ],
   "en": [
@@ -143,6 +154,17 @@
       ],
       "name": "Mikko Kotola",
       "title": "Full stack developer"
+    },
+    {
+      "image": "holly_gibson_sq.jpg",
+      "companyLogo": "smartly_io.svg",
+      "text": [
+        "I’m working as a software developer at Smartly.io, building our image and video templating tools and creating a beautiful and powerful experience for designers who make visual media. Our team works with JavaScript, React, and Node.js. From the first moment, I loved the culture at Smartly.io especially our value of being Humble Hungry Hunters. We have no egos here, and we’re humble.",
+        "At the same time, we’re lifelong learners, hunting for new knowledge, and constantly leveling up. I have a bit of an alternative background. I used to work in IT at a university and took an online PHP class to improve my technical skills. I had the worst experience and thought I’d never become a developer. I went on to work at nonprofits in marketing, website management, and graphic design. My career in software development started when I took part in an intensive Ruby on Rails bootcamp. It was one of the hardest things I had done so far, but it landed me a job as the first—and only—developer in an ed-tech startup. As I was in charge of everything from th servers to the database to the web app, I needed to learn lots of new skills very quickly. I even rebuilt our server in the middle of a Finnish forest during my holiday after it got hacked! Having so much responsibility grew my confidence as a professional developer. Since then, I have worked in multiple companies with different tech stacks and frameworks and advanced to a team lead position.",
+        "I’m one part engineer and one part artist. Coding allows me to use both halves of my brain: the logical part that loves puzzles and problem solving, and the artistic one that enjoys creating beautiful and functional user interfaces. There’s also a profoundly human element to developing software that I like. When we are building creative tools, we need to have empathy and understand our customers’ needs to succeed in producing something easy and powerful to use."
+      ],
+      "name": "Holly Gibson",
+      "title": "Software Developer"
     }
   ]
 }
