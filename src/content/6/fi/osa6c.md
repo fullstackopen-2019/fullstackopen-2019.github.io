@@ -265,7 +265,7 @@ Lähestymistapamme on ok, mutta siinä mielessä ikävä, että palvelimen kanss
 const App = (props) => {
 
   useEffect(() => {
-    props.initializeNotes(notes)
+    props.initializeNotes()
   },[])
   // ...
 }
