@@ -330,7 +330,7 @@ This still is an arrow function with only one statement, the statement just happ
 
 ### Anti-pattern: array indexes as keys
 
-We could have made the error message on our console disappear by using the array indexes as keys. The indexes can be retrieved by passing a second parameter to the map-method: 
+We could have made the error message on our console disappear by using the array indexes as keys. The indexes can be retrieved by passing a second parameter to the callback function of the map-method: 
 
 ```js
 notes.map((note, i) => ...)
